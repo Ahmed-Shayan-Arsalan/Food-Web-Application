@@ -1,0 +1,200 @@
+Body
+{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+.Home
+{
+width: 100%;
+}
+
+nav
+{
+width: 100%;
+height: 80px;
+background-color: black;
+line-height: 80px;
+display: flex;
+justify-content: space-between;
+}
+
+a
+{
+text-decoration: none;
+color: #fff;
+font-size: 19px;
+transition: 0.5s all ease;
+}
+
+ul
+{
+margin: 0px;
+margin-right: 50px;
+}
+
+ul li
+{
+float: left;
+padding: 0px 15px;
+list-style: none;
+}
+
+.logo a
+{
+font-size: 32px;
+color: orange;
+font-weight: bold;
+margin-left: 30px;
+}
+
+ul li a:hover
+{
+color: red;
+}
+
+.header2
+{
+background-image: url(BlackBackground.jpg);
+background-position: center;
+background-size: cover;
+height: 100vh;
+background-repeat: no-repeat;
+}
+
+.content
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: #fff;
+text-align: center;
+}
+
+.content h1
+{
+font-size: 50px;
+}
+
+.content p
+{
+padding: 0px 50px;
+font-size: 20px;
+}
+
+.button
+{
+background: none;
+border: 1px solid #fff;
+color: #fff;
+
+font-size: 18px;
+padding: 0px 0px;
+border-radius: 99999px;
+transition: 0.5s all ease;
+}
+
+.button:hover
+{
+background: blanchedalmond;
+color: #fff;
+}
+
+.overlay
+{
+background: rgba(0,0,0,.60);
+height: 100vh;
+}
+
+.Pic1
+{
+position: absolute;
+top: 35%;
+left: 23%;
+}
+
+.Pic2
+{
+position: absolute;
+top: 36%;
+left: 60%;
+}
+
+.text1
+{
+color: orange;
+position: absolute;
+transform: translate(800%,585%);
+text-decoration: underline overline;
+}
+
+.text3
+{
+color: orange;
+position: absolute;
+transform: translate(1895%,600%);
+text-align: center;
+text-decoration: underline overline
+}
+
+.text4
+{
+color: white;
+position: absolute;
+transform: translate(450%,470%);
+text-align: center;
+}
+
+.text2
+{
+color: white;
+position: absolute;
+transform: translate(167%,457%);
+text-align: center;
+}
+
+.Overall a
+{
+text-decoration: none;
+color: darkgrey;
+font-size: 12px;
+}
+
+.Overall a:hover
+{
+color: #ffc107;
+cursor: pointer;
+}
+
+.Order a
+{
+font-size: 18px;
+color: orange;
+font-weight: bold;
+margin-left: 30px;
+position: absolute;
+top: 60%;
+left: 23.8%;
+}
+
+.Foot
+{
+position: fixed;
+top: 93%;
+left: 40%;
+border-radius: 50%;
+}
+
+.Order1 a
+{
+font-size: 18px;
+color: orange;
+font-weight: bold;
+margin-left: 30px;
+position: absolute;
+top: 61%;
+left: 61%;
+}
+
